@@ -27,7 +27,7 @@ var app = express();
 *
 Database connection
 */
-mongoose.connect('mongodb+srv://admin:snow123@cluster0-pru5c.mongodb.net/test', {
+mongoose.connect('mongodb+srv://admin:snow123@sandbox-3qokk.mongodb.net/test', {
 promiseLibrary: require('bluebird')
 }).then ( () => console.log('connection successful'))
 .catch( (err) => console.error(err));
