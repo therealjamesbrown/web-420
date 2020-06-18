@@ -1,3 +1,14 @@
+
+/*
+============================================
+; Title: Assignment 8.4
+; Author: Professor Krasso
+; Date: 04/28/2020
+; Modified By: James Brown
+; Description: Exercise 8.4
+;===========================================
+*/
+
 var User = require("../models/user");
 var jwt = require('jsonwebtoken');
 var bcrypt = require('bcryptjs');
