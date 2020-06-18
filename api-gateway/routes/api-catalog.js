@@ -4,8 +4,12 @@
  */
 
  var express = require('express');
+ var checkToken = require('../check-token');
  var router = express.Router();
  var auth_controller = require('../controllers/authController');
+
+ //GET request for token check
+ router.get('/auth/token', checkToken, auth_controller.user_token);
 
  //POST request for registering a user
  router.post('/auth/register', auth_controller.user_register);
