@@ -1,0 +1,42 @@
+
+{
+    "Description": "weather api",
+    "weekly_weather": {
+       " 14_day_weather": [ 
+            {
+                "Date": "1/1/2020",
+                "Temperature": "100"
+            },
+            {
+                "Date": "1/2/2020",
+                "Temperature": "100"
+            },
+            {
+                "Date": "1/3/2020",
+                "Temperature": "100"
+            }
+        ],
+        "Location": {
+            "City": "omaha",
+            "State": "NE",
+            "Zip_code": "68103",
+            "country": "US"
+        }
+    },
+    "remaining_free_calls": {
+        "calls_already_made": 25,
+        "remaining_free_calls": 75,
+        "links": [
+            {
+            "href": "https://www.registeryouraccount.com",
+            "rel": "How to register your account",
+            "method": "GET"
+            },
+            {
+            "href": "https://www.aboutourapi.com",
+            "rel": "Why our api isn't free forever",
+            "method": "GET"
+            }
+        ]
+    }
+}
